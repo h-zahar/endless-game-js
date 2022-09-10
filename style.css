@@ -4,4 +4,22 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#control {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    z-index: 1;
+}
+
+#control div {
+    padding: 5px 10px;
+    background: white;
+}
+
+select {
+    margin-left: 10px;
+    padding: 5px 8px;
 }
